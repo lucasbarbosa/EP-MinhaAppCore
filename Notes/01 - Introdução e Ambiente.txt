@@ -1,0 +1,26 @@
+Eduardo Pires - Iniciando com ASP.NET Core
+========================================================
+
+01 - Introdução e Ambiente
+========================================================
+
+- Iniciado em 2014 na versão 1.0 e 2016 na versão 2.0
+- Por motivos estratégicos da Microsoft para manter atualizações mais frequentes, o .NET Core foi reescrito visando ser desacoplado do Windows (System.Web), 
+utilizando novos conceitos, ficando mais leve, rodando multiplataformas, pronto para executar na Nuvem, competindo com outros frameworks do mercado como o NodeJS.
+
+- Resumo das novidades do .NET Core
+	- Inovação: Performance muito melhor que as versões anteriores, tendo melhor desempenho no benchmark com outras tecnologias.
+	- Open Source: O código é mantido pela organização .NET Foundation, com diversos projetos da Microsoft no GitHub, onde a comunidade pode acompanhar a evolução e novidades.
+	- Multiplataformas: Pode ser executado no Windows, Linux, Mac, Azure, Docker, AWS.
+
+- .NET CLI (Command Line Interface) => Suporte via linha de comando ara execuções do .NET Core nas diferentes plataformas suportadas.
+- .NET Standard => Funciona diversas versões do Framework porém executando apenas no Windows.
+
+- IDEs => Visua Studio (Windows) | Visual Studio Code (Open Source e Multiplataforma)
+- Instalação
+	- Pelo róprio Visual Studio ou baixar as versões mais recentes no site da Microsoft.
+	- .NET Core SDK (Desenvolver) e .NET Core Runtime (Executar no servidor)
+
+- Gerenciamento de versões: 
+	- Console => dotnet --info
+	- Aplicação => Global.json > Chave SDK

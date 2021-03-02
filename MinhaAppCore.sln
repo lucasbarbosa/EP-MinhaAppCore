@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhaAppCore", "MinhaAppCore\MinhaAppCore.csproj", "{3179AE0D-8887-4F9A-84E1-84D2D030D356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{05C9051D-25DF-4F8E-AA5B-5FC9A68FD466}"
+	ProjectSection(SolutionItems) = preProject
+		Notes\01 - Introdução e Ambiente.txt = Notes\01 - Introdução e Ambiente.txt
+		Notes\02 - Minha primeira APP.txt = Notes\02 - Minha primeira APP.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3179AE0D-8887-4F9A-84E1-84D2D030D356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3179AE0D-8887-4F9A-84E1-84D2D030D356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3179AE0D-8887-4F9A-84E1-84D2D030D356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3179AE0D-8887-4F9A-84E1-84D2D030D356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96BD4F7-AB5D-449A-86D2-1212FCF94C22}
+	EndGlobalSection
+EndGlobal

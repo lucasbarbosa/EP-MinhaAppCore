@@ -1,0 +1,41 @@
+﻿Eduardo Pires - Iniciando com ASP.NET Core
+========================================================
+
+02 - Minha primeira APP
+========================================================
+ASP.NET Core é um framework para web. Fica dividido da seguinte forma:
+
+- RAZOR (Sites)
+-- MVC => Padrão mais conhecido, substituto do web forms.
+-- Razor Pages => Elementos web componentizados.
+-- Razor Library => Reutilizaão dos componentes em outros projetos.
+
+- Services
+-- Web API => API de comunicação Rest
+-- SignalR => Comunicação em tempo real (Chat, notificações, etc)
+
+- SPA
+-- Angular => Template JS
+-- React => Template JS
+-- Blazor => Template Web Assembly (Tendência de futuro na web)
+
+- Identity => Camada acima de todas as tecnologias anteriores. Valida usuários, permissões, autenticação, token, etc.
+
+Estrutura Projeto
+========================================================
+- NomeApp.csproj => XML de configurações do projeto e referências
+- Properties/launchSettings.json => Configurações de como a aplicação será executada
+- wwwroot => Armazenar os arquivos estáticos do projeto: CSS, JS, Libs, Images, Ico
+- appsettings.json => Configurações de ambientes
+- Classes de Configuração:
+-- Program.cs => Cria um host da aplicação, normalmente apontando para iniciar o Startup.cs
+
+Pipeline .NET Core
+========================================================
+- OWIN (Open Web Interface for .NET) => Especificação que "explica" como vai funcionar o pipeline.
+- Middlewares => Componentes que manipulam os dados entre os Requests e Responses, funcionando como se fosse um barramento.
+- Interfaces:
+-- IConfiguration => Raíz de uma hierarquia, responsável por gerenciar as constraints do ASP.NET Core.
+-- IServiceCollection => Contrato para uma coleção de serviços, estendida por classes que implementam Middlewares através da injeção de dependência.
+-- IApplicationBuilder => Contrato para classes que irão prover mecanismos de configuração de um Middleware. Interface estendida por classes que implementam métodos de configuração para cada Middleware.
+-- IWebHostEnvironment => Fornece informações sobre o ambiente de hospedagem web que uma aplicação está sendo executada.
