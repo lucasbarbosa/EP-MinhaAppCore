@@ -1,3 +1,5 @@
 # EP-MinhaAppCore
 
-App modelo desenvolvido no curso https://desenvolvedor.io/curso-online-iniciando-com-asp-net-core/
+App de estudo e as anotações do curso Iniciando com ASP.NET Core | desenvolvedor.io
+
+https://desenvolvedor.io/curso-online-iniciando-com-asp-net-core/
